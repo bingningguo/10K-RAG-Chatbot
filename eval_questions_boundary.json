@@ -1,0 +1,50 @@
+[
+  {
+    "question": "What is Amazon's cloud market share in China in 2024?",
+    "category": "A_doc_out_fact",
+    "expected_refuse": true,
+    "purpose": "Doc-out fact; 10-K has no such data; should refuse"
+  },
+  {
+    "question": "Which AI partnership did Microsoft sign in India in 2024?",
+    "category": "A_doc_out_fact",
+    "expected_refuse": true,
+    "purpose": "Doc-out fact; 10-K may not state it; should refuse"
+  },
+  {
+    "question": "What was Amazon's total revenue in 2022 according to the latest 10-K?",
+    "category": "B_year_confusion",
+    "expected_refuse": true,
+    "purpose": "Year confusion; 2022 may not be in current 10-K; prone to fabricate"
+  },
+  {
+    "question": "Compare Microsoft cloud growth in 2021 vs 2024.",
+    "category": "B_year_confusion",
+    "expected_refuse": true,
+    "purpose": "Year confusion; 2021 may not be in current 10-K; prone to fabricate"
+  },
+  {
+    "question": "Which company is the most innovative?",
+    "category": "C_vague_subjective",
+    "expected_refuse": true,
+    "purpose": "Vague/subjective; should refuse or qualify"
+  },
+  {
+    "question": "Which company dominates AI globally?",
+    "category": "C_vague_subjective",
+    "expected_refuse": true,
+    "purpose": "Vague/subjective; should refuse or qualify"
+  },
+  {
+    "question": "Rank the three companies by increase in cash from 2023 to 2024.",
+    "category": "D_cross_company_reasoning",
+    "expected_refuse": false,
+    "purpose": "Cross-company reasoning; prone to mix companies/numbers"
+  },
+  {
+    "question": "What geopolitical risks are mentioned that could affect cloud adoption?",
+    "category": "E_retrieval_challenge",
+    "expected_refuse": false,
+    "purpose": "Section-locating challenge; retrieval test"
+  }
+]

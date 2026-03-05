@@ -1,0 +1,477 @@
+[
+  {
+    "question": "How much cash and cash equivalents did Amazon have at the end of 2024?",
+    "answer": "I don't have enough information to answer this question. The provided context mentions \"restricted cash, cash equivalents, and marketable securities\" for Amazon as $3.5 billion as of December 31, 2024 (source: Amazon 10K 2024.pdf, page 23), but it does not state the total amount of unrestricted cash and cash equivalents.",
+    "category": "basic_fact",
+    "expected_refuse": false,
+    "citations_extracted": [
+      "(source: Amazon 10K 2024.pdf, page 23)"
+    ],
+    "retrieved_sources": [
+      {
+        "source": "Amazon 10K 2024.pdf",
+        "page": 21
+      },
+      {
+        "source": "MSFT 10-K.pdf",
+        "page": 67
+      },
+      {
+        "source": "Amazon 10K 2024.pdf",
+        "page": 67
+      },
+      {
+        "source": "Amazon 10K 2024.pdf",
+        "page": 22
+      }
+    ],
+    "has_citation": true,
+    "has_number": true,
+    "correct_refuse": true,
+    "potential_hallucination": false,
+    "pass": true,
+    "reason": "ok"
+  },
+  {
+    "question": "What was Microsoft's total revenue in 2024?",
+    "answer": "Microsoft's total revenue for the year ended June 30, 2024, was $245,122 million (source: MSFT 10-K.pdf, page 132).",
+    "category": "basic_fact",
+    "expected_refuse": false,
+    "citations_extracted": [
+      "(source: MSFT 10-K.pdf, page 132)"
+    ],
+    "retrieved_sources": [
+      {
+        "source": "MSFT 10-K.pdf",
+        "page": 131
+      },
+      {
+        "source": "Alphabet 10K 2024.pdf",
+        "page": 38
+      },
+      {
+        "source": "MSFT 10-K.pdf",
+        "page": 132
+      },
+      {
+        "source": "MSFT 10-K.pdf",
+        "page": 55
+      }
+    ],
+    "has_citation": true,
+    "has_number": true,
+    "correct_refuse": false,
+    "potential_hallucination": false,
+    "pass": true,
+    "reason": "ok"
+  },
+  {
+    "question": "What percentage of Alphabet's revenue comes from advertising?",
+    "answer": "For the year ended December 31, 2024, Alphabet's advertising revenue was $264,590 million (source: Alphabet 10K 2024.pdf, page 65).\n\nTo calculate the percentage, we need the total revenue. Based on the provided disaggregated revenues, total revenue can be calculated as the sum of \"Google Services total\" and \"Google Cloud.\"\n\nFor the year ended December 31, 2024:\n*   Google Services total revenue was $304,930 million (source: Alphabet 10K 2024.pdf, page 65).\n*   Google Cloud revenue was $43,229 million (source: Alphabet 10K 2024.pdf, page 65).\n*   Total revenue = $304,930 million + $43,229 million = $348,159 million.\n\nTherefore, the percentage of Alphabet's revenue that came from advertising in 2024 was approximately 75.99% ($264,590 million / $348,159 million).\n\nFor comparison, the percentages for previous years were:\n*   **2023:** Advertising revenue was $237,855 million (source: Alphabet 10K 2024.pdf, page 65). Total revenue was $272,543 million (Google Services total) + $33,088 million (Google Cloud) = $305,631 million (source: Alphabet 10K 2024.pdf, page 65). This is approximately 77.82%.\n*   **2022:** Advertising revenue was $224,473 million (source: Alphabet 10K 2024.pdf, page 65). Total revenue was $253,528 million (Google Services total) + $26,280 million (Google Cloud) = $279,808 million (source: Alphabet 10K 2024.pdf, page 65). This is approximately 80.22%.",
+    "category": "basic_fact",
+    "expected_refuse": false,
+    "citations_extracted": [
+      "(source: Alphabet 10K 2024.pdf, page 65)",
+      "(source: Alphabet 10K 2024.pdf, page 65)",
+      "(source: Alphabet 10K 2024.pdf, page 65)",
+      "(source: Alphabet 10K 2024.pdf, page 65)",
+      "(source: Alphabet 10K 2024.pdf, page 65)",
+      "(source: Alphabet 10K 2024.pdf, page 65)",
+      "(source: Alphabet 10K 2024.pdf, page 65)"
+    ],
+    "retrieved_sources": [
+      {
+        "source": "Alphabet 10K 2024.pdf",
+        "page": 64
+      },
+      {
+        "source": "Alphabet 10K 2024.pdf",
+        "page": 30
+      },
+      {
+        "source": "Alphabet 10K 2024.pdf",
+        "page": 33
+      },
+      {
+        "source": "Alphabet 10K 2024.pdf",
+        "page": 7
+      }
+    ],
+    "has_citation": true,
+    "has_number": true,
+    "correct_refuse": false,
+    "potential_hallucination": false,
+    "pass": true,
+    "reason": "ok"
+  },
+  {
+    "question": "Did Amazon's liquidity increase or decrease compared to 2023?",
+    "answer": "Amazon's liquidity increased compared to 2023. As of December 31, 2023, Amazon's cash, cash equivalents, and marketable securities balances were $86.8 billion (source: Amazon 10K 2024.pdf, page 22), and as of December 31, 2024, these balances were $101.2 billion (source: Amazon 10K 2024.pdf, page 22).",
+    "category": "yoy_change",
+    "expected_refuse": false,
+    "citations_extracted": [
+      "(source: Amazon 10K 2024.pdf, page 22)",
+      "(source: Amazon 10K 2024.pdf, page 22)"
+    ],
+    "retrieved_sources": [
+      {
+        "source": "Amazon 10K 2024.pdf",
+        "page": 21
+      },
+      {
+        "source": "Amazon 10K 2024.pdf",
+        "page": 57
+      },
+      {
+        "source": "Amazon 10K 2024.pdf",
+        "page": 37
+      },
+      {
+        "source": "Amazon 10K 2024.pdf",
+        "page": 22
+      }
+    ],
+    "has_citation": true,
+    "has_number": true,
+    "correct_refuse": false,
+    "potential_hallucination": false,
+    "pass": true,
+    "reason": "ok"
+  },
+  {
+    "question": "How did Microsoft's cloud revenue change year-over-year?",
+    "answer": "Microsoft Cloud revenue increased 23% to $137.4 billion (source: MSFT 10-K.pdf, page 56).",
+    "category": "yoy_change",
+    "expected_refuse": false,
+    "citations_extracted": [
+      "(source: MSFT 10-K.pdf, page 56)"
+    ],
+    "retrieved_sources": [
+      {
+        "source": "MSFT 10-K.pdf",
+        "page": 61
+      },
+      {
+        "source": "MSFT 10-K.pdf",
+        "page": 60
+      },
+      {
+        "source": "MSFT 10-K.pdf",
+        "page": 55
+      },
+      {
+        "source": "MSFT 10-K.pdf",
+        "page": 132
+      }
+    ],
+    "has_citation": true,
+    "has_number": true,
+    "correct_refuse": false,
+    "potential_hallucination": false,
+    "pass": true,
+    "reason": "ok"
+  },
+  {
+    "question": "What are the main revenue sources of Amazon?",
+    "answer": "Amazon's main revenue sources include:\n*   The sale of a wide range of products and services to customers, which is their primary source of revenue (source: Amazon 10K 2024.pdf, page 20). This includes merchandise and content purchased for resale, products offered by third-party sellers, and electronic devices (source: Amazon 10K 2024.pdf, page 20).\n*   Online stores, which encompass product sales and digital media content, and also include physical stores (source: Amazon 10K 2024.pdf, page 67).\n*   Third-party seller services, which generate revenue from commissions, related fulfillment and shipping fees, and other services (source: Amazon 10K 2024.pdf, page 67).\n*   Advertising services, through the sale of sponsored ads, display, and video advertising to various parties such as sellers, vendors, publishers, and authors (source: Amazon 10K 2024.pdf, page 67).\n*   Subscription services, which include annual and monthly fees for Amazon Prime memberships, as well as digital video, audiobook, digital music, and e-book services (source: Amazon 10K 2024.pdf, page 67).\n*   AWS (Amazon Web Services) (source: Amazon 10K 2024.pdf, page 67).",
+    "category": "business_structure",
+    "expected_refuse": false,
+    "citations_extracted": [
+      "(source: Amazon 10K 2024.pdf, page 20)",
+      "(source: Amazon 10K 2024.pdf, page 20)",
+      "(source: Amazon 10K 2024.pdf, page 67)",
+      "(source: Amazon 10K 2024.pdf, page 67)",
+      "(source: Amazon 10K 2024.pdf, page 67)",
+      "(source: Amazon 10K 2024.pdf, page 67)",
+      "(source: Amazon 10K 2024.pdf, page 67)"
+    ],
+    "retrieved_sources": [
+      {
+        "source": "Amazon 10K 2024.pdf",
+        "page": 66
+      },
+      {
+        "source": "Amazon 10K 2024.pdf",
+        "page": 66
+      },
+      {
+        "source": "Alphabet 10K 2024.pdf",
+        "page": 31
+      },
+      {
+        "source": "Amazon 10K 2024.pdf",
+        "page": 19
+      }
+    ],
+    "has_citation": true,
+    "has_number": true,
+    "correct_refuse": false,
+    "potential_hallucination": false,
+    "pass": true,
+    "reason": "ok"
+  },
+  {
+    "question": "Compare the primary revenue streams of Alphabet, Amazon, and Microsoft.",
+    "answer": "Here's a comparison of the primary revenue streams for Alphabet, Amazon, and Microsoft:\n\n**Alphabet**\nThe provided document lists Alphabet's total revenues but does not break them down into specific primary revenue streams.\n*   Revenues for Alphabet were $350,018 million for the year ended December 31, 2024 (source: Alphabet 10K 2024.pdf, page 54).\n\n**Amazon**\nAmazon generates net sales from several groups of similar products and services:\n*   Online stores (source: Amazon 10K 2024.pdf, page 67)\n*   Physical stores (source: Amazon 10K 2024.pdf, page 67)\n*   Third-party seller services (source: Amazon 10K 2024.pdf, page 67)\n*   Advertising services (source: Amazon 10K 2024.pdf, page 67)\n*   Subscription services (source: Amazon 10K 2024.pdf, page 67)\n*   AWS (Amazon Web Services) (source: Amazon 10K 2024.pdf, page 67)\n\n**Microsoft**\nMicrosoft generates revenue by:\n*   Offering a wide range of cloud-based solutions, content, and other services to people and businesses (source: MSFT 10-K.pdf, page 56).\n*   Licensing and supporting an array of software products (source: MSFT 10-K.pdf, page 56).\n*   Delivering relevant online advertising to a global audience (source: MSFT 10-K.pdf, page 56).\n*   Designing and selling devices (source: MSFT 10-K.pdf, page 56).\n\nMicrosoft's segment revenues for the year ended June 30, 2024, include:\n*   Productivity and Business Processes: $77,728 million (source: MSFT 10-K.pdf, page 132)\n*   Intelligent Cloud: $105,362 million (source: MSFT 10-K.pdf, page 132)\n*   More Personal Computing: $62,032 million (source: MSFT 10-K.pdf, page 132)",
+    "category": "business_structure",
+    "expected_refuse": false,
+    "citations_extracted": [
+      "(source: Alphabet 10K 2024.pdf, page 54)",
+      "(source: Amazon 10K 2024.pdf, page 67)",
+      "(source: Amazon 10K 2024.pdf, page 67)",
+      "(source: Amazon 10K 2024.pdf, page 67)",
+      "(source: Amazon 10K 2024.pdf, page 67)",
+      "(source: Amazon 10K 2024.pdf, page 67)",
+      "(source: Amazon 10K 2024.pdf, page 67)",
+      "(source: MSFT 10-K.pdf, page 56)",
+      "(source: MSFT 10-K.pdf, page 56)",
+      "(source: MSFT 10-K.pdf, page 56)",
+      "(source: MSFT 10-K.pdf, page 56)",
+      "(source: MSFT 10-K.pdf, page 132)",
+      "(source: MSFT 10-K.pdf, page 132)",
+      "(source: MSFT 10-K.pdf, page 132)"
+    ],
+    "retrieved_sources": [
+      {
+        "source": "MSFT 10-K.pdf",
+        "page": 55
+      },
+      {
+        "source": "Amazon 10K 2024.pdf",
+        "page": 66
+      },
+      {
+        "source": "Alphabet 10K 2024.pdf",
+        "page": 53
+      },
+      {
+        "source": "MSFT 10-K.pdf",
+        "page": 131
+      }
+    ],
+    "has_citation": true,
+    "has_number": true,
+    "correct_refuse": false,
+    "potential_hallucination": false,
+    "pass": true,
+    "reason": "ok"
+  },
+  {
+    "question": "What risks related to China are mentioned in the 10-Ks?",
+    "answer": "Here are the risks related to China mentioned in the 10-Ks:\n\n**Amazon**\n*   There are substantial uncertainties regarding the interpretation of PRC (People's Republic of China) laws and regulations, and it is possible that the PRC government will ultimately take a view contrary to Amazon's (source: Amazon 10K 2024.pdf, page 8).\n*   China-based sellers account for significant portions of Amazon's third-party seller services and advertising revenues (source: Amazon 10K 2024.pdf, page 8).\n*   China-based suppliers provide significant portions of Amazon's components and finished goods (source: Amazon 10K 2024.pdf, page 8).\n*   Regulatory and trade restrictions, data protection and cybersecurity laws, and economic conditions in China could impact Amazon's businesses and operations (source: Amazon 10K 2024.pdf, page 8).\n\n**Microsoft**\n*   Countries, particularly in China and other countries in Asia, have advanced arguments under their competition laws that exert downward pressure on royalties for Microsoft's intellectual property (source: MSFT 10-K.pdf, page 45).\n*   Competition law enforcement actions and court decisions, along with new market regulations, may result in fines or hinder Microsoft's ability to provide the benefits of its software to consumers and businesses, reducing the attractiveness of its products (source: MSFT 10-K.pdf, page 45).",
+    "category": "risk_factors",
+    "expected_refuse": false,
+    "citations_extracted": [
+      "(source: Amazon 10K 2024.pdf, page 8)",
+      "(source: Amazon 10K 2024.pdf, page 8)",
+      "(source: Amazon 10K 2024.pdf, page 8)",
+      "(source: Amazon 10K 2024.pdf, page 8)",
+      "(source: MSFT 10-K.pdf, page 45)",
+      "(source: MSFT 10-K.pdf, page 45)"
+    ],
+    "retrieved_sources": [
+      {
+        "source": "Amazon 10K 2024.pdf",
+        "page": 7
+      },
+      {
+        "source": "Amazon 10K 2024.pdf",
+        "page": 11
+      },
+      {
+        "source": "MSFT 10-K.pdf",
+        "page": 44
+      },
+      {
+        "source": "Amazon 10K 2024.pdf",
+        "page": 7
+      }
+    ],
+    "has_citation": true,
+    "has_number": true,
+    "correct_refuse": false,
+    "potential_hallucination": false,
+    "pass": true,
+    "reason": "ok"
+  },
+  {
+    "question": "What regulatory risks are discussed in the cloud business?",
+    "answer": "Regulatory risks discussed in the context of cloud business include:\n\n**Alphabet**\n*   Businesses with financial services, healthcare, and public sector customers may present regulatory compliance risks (source: Alphabet 10K 2024.pdf, page 13).\n*   These risks can involve government audits and cost reviews, and any failure to comply or deficiencies found may expose the company to legal, financial, and/or reputational risks (source: Alphabet 10K 2024.pdf, page 13).\n*   Evolving laws and regulations may necessitate new capital (source: Alphabet 10K 2024.pdf, page 13).\n*   Additional regulatory risks include regulatory costs and challenges (including new customer requirements), uncertainty regarding regulatory outcomes, and other liabilities under local laws that may not offer due process or clear legal precedent (source: Alphabet 10K 2024.pdf, page 16).\n*   Anti-corruption laws, such as the U.S. Foreign Corrupt Practices Act, and other local laws prohibiting certain payments to government officials, could result in civil and criminal penalties for violations (source: Alphabet 10K 2024.pdf, page 16).\n\n**Microsoft**\n*   The business faces accelerating global regulatory obligations, which are often unclear, subject to change, and inconsistent across jurisdictions (source: MSFT 10-K.pdf, page 28).\n*   A regulatory governance framework has been established with an initial focus on Responsible AI, Privacy, Digital Safety, and Cybersecurity to comply with these obligations (source: MSFT 10-K.pdf, page 28).\n*   Laws in various jurisdictions, including EU Member State laws under the European Electronic Communications Code, increasingly define certain services as regulated telecommunications services (source: MSFT 10-K.pdf, page 47). This trend could subject these offerings to additional data protection, security, law enforcement surveillance, and other obligations (source: MSFT 10-K.pdf, page 47).\n*   Regulators and private litigants may assert issues regarding the collection, use, and management of customer data and other information (source: MSFT 10-K.pdf, page 47).",
+    "category": "risk_factors",
+    "expected_refuse": false,
+    "citations_extracted": [
+      "(source: Alphabet 10K 2024.pdf, page 13)",
+      "(source: Alphabet 10K 2024.pdf, page 13)",
+      "(source: Alphabet 10K 2024.pdf, page 13)",
+      "(source: Alphabet 10K 2024.pdf, page 16)",
+      "(source: Alphabet 10K 2024.pdf, page 16)",
+      "(source: MSFT 10-K.pdf, page 28)",
+      "(source: MSFT 10-K.pdf, page 28)",
+      "(source: MSFT 10-K.pdf, page 47)",
+      "(source: MSFT 10-K.pdf, page 47)",
+      "(source: MSFT 10-K.pdf, page 47)"
+    ],
+    "retrieved_sources": [
+      {
+        "source": "Alphabet 10K 2024.pdf",
+        "page": 12
+      },
+      {
+        "source": "MSFT 10-K.pdf",
+        "page": 27
+      },
+      {
+        "source": "MSFT 10-K.pdf",
+        "page": 46
+      },
+      {
+        "source": "Alphabet 10K 2024.pdf",
+        "page": 15
+      }
+    ],
+    "has_citation": true,
+    "has_number": true,
+    "correct_refuse": false,
+    "potential_hallucination": false,
+    "pass": true,
+    "reason": "ok"
+  },
+  {
+    "question": "What is Amazon's market share in China cloud market?",
+    "answer": "I don't have enough information to answer this question.",
+    "category": "edge_case",
+    "expected_refuse": true,
+    "citations_extracted": [],
+    "retrieved_sources": [
+      {
+        "source": "Amazon 10K 2024.pdf",
+        "page": 6
+      },
+      {
+        "source": "MSFT 10-K.pdf",
+        "page": 16
+      },
+      {
+        "source": "Amazon 10K 2024.pdf",
+        "page": 24
+      },
+      {
+        "source": "Amazon 10K 2024.pdf",
+        "page": 83
+      }
+    ],
+    "has_citation": false,
+    "has_number": false,
+    "correct_refuse": true,
+    "potential_hallucination": false,
+    "pass": true,
+    "reason": "correct refusal"
+  },
+  {
+    "question": "What strategic AI partnership did Microsoft sign in India in 2024?",
+    "answer": "I don't have enough information to answer this question. The provided documents mention Microsoft's strategic partner OpenAI (source: MSFT 10-K.pdf, page 42) and Microsoft's general AI initiatives, but do not specify a strategic AI partnership signed in India in 2024.",
+    "category": "edge_case",
+    "expected_refuse": true,
+    "citations_extracted": [
+      "(source: MSFT 10-K.pdf, page 42)"
+    ],
+    "retrieved_sources": [
+      {
+        "source": "MSFT 10-K.pdf",
+        "page": 41
+      },
+      {
+        "source": "MSFT 10-K.pdf",
+        "page": 9
+      },
+      {
+        "source": "Alphabet 10K 2024.pdf",
+        "page": 19
+      },
+      {
+        "source": "MSFT 10-K.pdf",
+        "page": 6
+      }
+    ],
+    "has_citation": true,
+    "has_number": true,
+    "correct_refuse": true,
+    "potential_hallucination": false,
+    "pass": true,
+    "reason": "correct refusal"
+  },
+  {
+    "question": "Compare the exposure of each company to geopolitical risks.",
+    "answer": "**Microsoft**\nGeopolitical change may add uncertainty to the timing and budget for technology investment decisions by customers and may cause supply chain disruptions for hardware manufacturers (source: MSFT 10-K.pdf, page 50). It may also result in changing regulatory systems and requirements and market interventions that could impact operating strategies, access to national, regional, and global markets, hiring, and profitability (source: MSFT 10-K.pdf, page 50). Geopolitical instability may lead to sanctions and impact Microsoft's ability to do business (source: MSFT 10-K.pdf, page 50). Increasing trade laws, policies, sanctions, and other regulatory requirements also affect Microsoft's operations in and outside the U.S. relating to trade and investment (source: MSFT 10-K.pdf, page 46). Economic sanctions in the U.S., the EU, and other countries prohibit most business with restricted entities or countries (source: MSFT 10-K.pdf, page 46). U.S. export controls restrict Microsoft from offering many of its products and services (source: MSFT 10-K.pdf, page 46).\n\n**Amazon**\nAmazon is exposed to geopolitical events, including war and terrorism (source: Amazon 10K 2024.pdf, page 7). Laws and policies of the U.S. and other jurisdictions affecting trade, foreign investment, loans, and taxes also impact Amazon (source: Amazon 10K 2024.pdf, page 7).\n\n**Alphabet**\nAlphabet is exposed to geopolitical tensions and armed conflicts (source: Alphabet 10K 2024.pdf, page 15).",
+    "category": "complex_comparison",
+    "expected_refuse": false,
+    "citations_extracted": [
+      "(source: MSFT 10-K.pdf, page 50)",
+      "(source: MSFT 10-K.pdf, page 50)",
+      "(source: MSFT 10-K.pdf, page 50)",
+      "(source: MSFT 10-K.pdf, page 46)",
+      "(source: MSFT 10-K.pdf, page 46)",
+      "(source: MSFT 10-K.pdf, page 46)",
+      "(source: Amazon 10K 2024.pdf, page 7)",
+      "(source: Amazon 10K 2024.pdf, page 7)",
+      "(source: Alphabet 10K 2024.pdf, page 15)"
+    ],
+    "retrieved_sources": [
+      {
+        "source": "MSFT 10-K.pdf",
+        "page": 49
+      },
+      {
+        "source": "Amazon 10K 2024.pdf",
+        "page": 6
+      },
+      {
+        "source": "MSFT 10-K.pdf",
+        "page": 45
+      },
+      {
+        "source": "Alphabet 10K 2024.pdf",
+        "page": 14
+      }
+    ],
+    "has_citation": true,
+    "has_number": true,
+    "correct_refuse": false,
+    "potential_hallucination": false,
+    "pass": true,
+    "reason": "ok"
+  },
+  {
+    "question": "Which company appears most dependent on cloud revenue? Justify with numbers.",
+    "answer": "I don't have enough information to answer this question. The provided context includes Google Cloud revenue and total revenues for Alphabet, but it only provides growth rates for Microsoft's cloud-related revenues (e.g., Server products and cloud services revenue increased 22%, Azure and other cloud services growth of 30%, Dynamics products and cloud services revenue increased 19%) (source: MSFT 10-K.pdf, page 56). Absolute cloud revenue figures for Microsoft are not available in the context, which prevents a direct comparison of dependency.",
+    "category": "complex_comparison",
+    "expected_refuse": false,
+    "citations_extracted": [
+      "(source: MSFT 10-K.pdf, page 56)"
+    ],
+    "retrieved_sources": [
+      {
+        "source": "Alphabet 10K 2024.pdf",
+        "page": 64
+      },
+      {
+        "source": "MSFT 10-K.pdf",
+        "page": 55
+      },
+      {
+        "source": "MSFT 10-K.pdf",
+        "page": 87
+      },
+      {
+        "source": "Alphabet 10K 2024.pdf",
+        "page": 12
+      }
+    ],
+    "has_citation": true,
+    "has_number": true,
+    "correct_refuse": true,
+    "potential_hallucination": false,
+    "pass": true,
+    "reason": "ok"
+  }
+]

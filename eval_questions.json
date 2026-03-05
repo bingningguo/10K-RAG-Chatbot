@@ -1,0 +1,93 @@
+[
+  {
+    "question": "How much cash and cash equivalents did Amazon have at the end of 2024?",
+    "category": "basic_fact",
+    "company": "Amazon",
+    "expected_refuse": false,
+    "purpose": "Test embedding retrieval for financial tables, citation, numeric precision"
+  },
+  {
+    "question": "What was Microsoft's total revenue in 2024?",
+    "category": "basic_fact",
+    "company": "Microsoft",
+    "expected_refuse": false,
+    "purpose": "Test embedding retrieval for financial tables, citation, numeric precision"
+  },
+  {
+    "question": "What percentage of Alphabet's revenue comes from advertising?",
+    "category": "basic_fact",
+    "company": "Alphabet",
+    "expected_refuse": false,
+    "purpose": "Test embedding retrieval, citation, numeric precision"
+  },
+  {
+    "question": "Did Amazon's liquidity increase or decrease compared to 2023?",
+    "category": "yoy_change",
+    "company": "Amazon",
+    "expected_refuse": false,
+    "purpose": "Whether correct YoY comparison, cites both years, or model inference"
+  },
+  {
+    "question": "How did Microsoft's cloud revenue change year-over-year?",
+    "category": "yoy_change",
+    "company": "Microsoft",
+    "expected_refuse": false,
+    "purpose": "Whether correct YoY comparison, cites both years"
+  },
+  {
+    "question": "What are the main revenue sources of Amazon?",
+    "category": "business_structure",
+    "company": "Amazon",
+    "expected_refuse": false,
+    "purpose": "Per-company output, citation, company confusion"
+  },
+  {
+    "question": "Compare the primary revenue streams of Alphabet, Amazon, and Microsoft.",
+    "category": "business_structure",
+    "company": null,
+    "expected_refuse": false,
+    "purpose": "Per-company output, citation, company confusion"
+  },
+  {
+    "question": "What risks related to China are mentioned in the 10-Ks?",
+    "category": "risk_factors",
+    "company": null,
+    "expected_refuse": false,
+    "purpose": "Hits Risk Factors section, model overreach"
+  },
+  {
+    "question": "What regulatory risks are discussed in the cloud business?",
+    "category": "risk_factors",
+    "company": null,
+    "expected_refuse": false,
+    "purpose": "Hits Risk Factors section, model overreach"
+  },
+  {
+    "question": "What is Amazon's market share in China cloud market?",
+    "category": "edge_case",
+    "company": "Amazon",
+    "expected_refuse": true,
+    "purpose": "10-K likely has no such data; correct=refuse; test fabrication"
+  },
+  {
+    "question": "What strategic AI partnership did Microsoft sign in India in 2024?",
+    "category": "edge_case",
+    "company": "Microsoft",
+    "expected_refuse": true,
+    "purpose": "If 10-K does not state it, refuse; test fabrication"
+  },
+  {
+    "question": "Compare the exposure of each company to geopolitical risks.",
+    "category": "complex_comparison",
+    "company": null,
+    "expected_refuse": false,
+    "purpose": "Test cross-company retrieval, multi-chunk merge"
+  },
+  {
+    "question": "Which company appears most dependent on cloud revenue? Justify with numbers.",
+    "category": "complex_comparison",
+    "company": null,
+    "expected_refuse": false,
+    "purpose": "Test cross-company retrieval, multi-chunk merge, numeric citation"
+  }
+]
